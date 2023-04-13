@@ -1,0 +1,248 @@
+/* this is a CSS code snippet that sets the margin, padding, and font-family properties for the HTML and body elements. */
+
+* html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto auto;
+}
+
+.container > div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 0;
+  margin: 0;
+  padding: 0;
+  background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+}
+#zen {
+  height: 150px;
+  width: 150px;
+  margin-left: 200px;
+  margin-right: 10px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+}
+
+h3 {
+  font-style: italic;
+  font-weight: 5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+
+  transform: translate(100px, -200px);
+}
+#garden {
+  font-weight: 100;
+  color: aliceblue;
+  text-align: center;
+  transform: translate(100px, -150px);
+  font-weight: 10;
+  font-family: fantasy;
+}
+.container > div:nth-child(2) {
+  background-image: url("http://www.csszengarden.com/214/huntington.jpg");
+  grid-column: 2;
+  grid-row: 0;
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(180, 241, 189);
+}
+#logo {
+  width: 300px;
+  height: 70px;
+  margin-left: 500px;
+  margin-right: 10px;
+  margin-top: 90px;
+  margin-bottom: -40px;
+  opacity: 0.7;
+}
+
+.container > div:nth-child(3) {
+  background-color: white;
+  grid-column: span 1;
+  grid-row: 2;
+  margin: 0;
+  padding: 0;
+}
+
+#road {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+#so {
+  font-weight: 100;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+.container > div:nth-child(4) {
+  background-color: rgb(230, 237, 229);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.container > div:nth-child(5) {
+  background-image: url(http://www.csszengarden.com/214/bamboo.png);
+  background-color: rgb(191, 213, 191);
+  grid-row: 4;
+}
+.container > div:nth-child(6) {
+  background-image: url(http://www.csszengarden.com/214/bamboo.png);
+  background-color: rgb(191, 213, 191);
+  grid-column: 2;
+  grid-row: 4;
+}
+.container > div:nth-child(7) {
+  background-color: white;
+  grid-column: 1;
+  grid-row: 5;
+}
+.container > div:nth-child(8) {
+  background-color: rgb(230, 237, 229);
+  grid-column: 2;
+  grid-row: 5;
+}
+.container > div:nth-child(9) {
+  background-image: url(http://www.csszengarden.com/214/koi.jpg);
+
+  background-color: rgb(226, 246, 231);
+  grid-row: 7;
+  grid-column: span 3;
+}
+.container > div:nth-child(10) {
+  background-color: rgb(8, 12, 70);
+  grid-row: 8;
+  grid-column: span 3;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+#pic1 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+#pic2 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+#pic3 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+
+#pic4 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.3;
+}
+#pic5 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+}
+#mid {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#andrew {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#mid {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#andrew {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#graments {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#dan {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#steel {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#steff {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#apoth {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#trent {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#screen {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#elliot {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#fount {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#jeremy {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#mid {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#andrew {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#robot {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#melt {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
+#verde {
+  color: rgb(61, 106, 91);
+  text-decoration: none;
+}
+#dave {
+  color: rgb(1, 9, 6);
+  text-decoration: none;
+  font-style: italic;
+}
