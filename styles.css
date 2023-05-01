@@ -246,3 +246,60 @@ h3 {
   text-decoration: none;
   font-style: italic;
 }
+
+/* Small screens */
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+  }
+
+  #zen {
+    margin: 0;
+  }
+
+  #logo {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5 {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+  }
+
+  #zen {
+    margin: 0;
+  }
+
+  #logo {
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4 {
+    width: 40px;
+    height: 40px;
+  }
+
+  #pic5 {
+    width: 60px;
+    height: 60px;
+  }
+}
+
